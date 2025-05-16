@@ -93,7 +93,7 @@
     position: relative;
     height: 100vh;
     width:100%;
-    background-image: linear-gradient(to left,rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(images/mountain.avif);
+    background-image: linear-gradient(to left,rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(images/4762422-hd_1366_720_24fps.gif);
     background-size: cover;
     background-position: bottom center;
     display:flex;
