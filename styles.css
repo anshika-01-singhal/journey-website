@@ -462,7 +462,7 @@ transform:scale(1.2);
         left:0;
     }
 }
-@media (max-width:800px){
+@media (max-width:768px){
     .holiday{
         grid-template-columns: 1fr;
     }
@@ -481,8 +481,30 @@ transform:scale(1.2);
     .Home{
         height: 85vh;
     }
+   /* Responsive: mobile-first layout */
+/* Responsive for mobile: stack vertically and center text */
+@media (max-width: 768px) {
+  .culture {
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .culture-text {
+    text-align: center;
+    width: 100%;          /* Full width on mobile */
+  }
+
+  .culture-images img {
+    width: 100%;          /* Make image responsive */
+    height: auto;
+    max-width: 400px;     /* Limit max width for images */
+    margin: 0 auto;
+  }
 }
-@media (max-width:450px){
+
+}
+/*mobile view smaller devices*/
+@media (max-width:480px){
  header{
         padding:12px 3%;
     }
@@ -493,3 +515,4 @@ transform:scale(1.2);
         padding:60px 3% 50px;
     }
 }
+
